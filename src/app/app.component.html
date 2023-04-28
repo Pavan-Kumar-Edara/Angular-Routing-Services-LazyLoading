@@ -1,0 +1,31 @@
+<!-- <ul>
+  <li><a routerLink="swiggy/orders">orders</a></li>
+  <li><a routerLink="swiggy/products">products</a></li>
+</ul> -->
+<html>
+  <head>
+    <title>Swiggy Homepage</title>
+  </head>
+  <body>
+    <header>
+      <h1>Swiggy</h1>
+      <a (click)="Rating()">Click Here To Know Rating</a>
+      <nav>
+        <ul>
+          <li><a routerLink="swiggy/orders">Orders</a></li>
+          <li><a routerLink="swiggy/products">Products</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="https://images.yourstory.com/cs/images/companies/logosC141575978425306png" alt="Swiggy image">
+      <h2>Discover great food with Swiggy</h2>
+      <p>Order your favorite meals from your favorite restaurants and get them delivered to your doorstep.</p>
+      <button>Order Now</button>
+    </main>
+    <footer>
+      <p>&copy; 2023 Swiggy. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+<router-outlet></router-outlet>
